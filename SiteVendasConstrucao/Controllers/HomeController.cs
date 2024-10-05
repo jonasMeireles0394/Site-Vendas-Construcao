@@ -16,10 +16,6 @@ namespace SiteVendasConstrucao.Controllers
 
         public IActionResult Index()
         {
-            DAL dal = new DAL();
-            string sql = "INSERT INTO teste (nome) VALUES ('Teste')";
-            int linhasAfetadas = dal.ExecutarComando(sql);
-
             return View();
         }
 
